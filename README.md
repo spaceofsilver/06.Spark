@@ -16,8 +16,8 @@
       - count()
       - reduce() 
         - map()과 같은 역할
-    - Transformation 관련 함수
-      - map()
-      - flatMap()
-      - filter()
-      ...
+  - Transformation 관련 함수
+    - map()
+    - flatMap()
+    - filter()
+    ...
