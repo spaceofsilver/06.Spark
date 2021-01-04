@@ -43,6 +43,7 @@
   - (2) sql쿼리로 데이터 분석 실행
     - Spark SQL을 사용하기 위해선 분산 데이터 프레임에 이름을 부여해야함
 <br>
+
         df.createOrReplaceTempView( '이름' )
         sql = 'select * from my'
         sqlDF = sqlCtx.sql( sql )
